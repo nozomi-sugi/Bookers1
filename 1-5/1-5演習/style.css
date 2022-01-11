@@ -38,15 +38,16 @@ header {
 
 .main {
   /*無駄が多い
-  list-style: none;
+  いらない(liではなくdiv指定）：　list-style: none;
   width: 800px;
-  height: 600px;
+  いらない：height: 600px;
   margin: 50px auto;
   display: flex;
   flex-wrap: wrap;
-  text-align: center;　*/
+  いらない：text-align: center;　*/
   width: 800px;
   margin: 50px auto;
+  /* 親で指定してあげる　*/
   display: flex;
   flex-wrap: wrap;
 }
