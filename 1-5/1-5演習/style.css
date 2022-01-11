@@ -8,22 +8,26 @@
 
 header {
   width: 100%;
-  margin: 0 auto;
+  /* margin不要　
+  margin: 0 auto; */
   padding: 20px 0;
   text-align: center;
 }
 
+/* headline不要のため以下削る
 .headline {
   font-size: 32px;
-}
+}　*/
 
 .nav-list {
-  font-size: 16px;
+  /* 以下特に指定なし
+  font-size: 16px;　*/
   text-align: center;
   margin: 0 auto;
   padding: 15px 0;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
+  /* 色が違う,black→#848282　*/
+  border-bottom: 1px solid #848282;
+  border-top: 1px solid #848282;
 }
 
 .nav-list-item {
@@ -33,13 +37,18 @@ header {
 }
 
 .main {
+  /*無駄が多い
   list-style: none;
   width: 800px;
   height: 600px;
   margin: 50px auto;
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
+  text-align: center;　*/
+  width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .box1 {

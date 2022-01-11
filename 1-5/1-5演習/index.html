@@ -9,14 +9,14 @@
   <body>
 
     <header>
-      <h1 class="headline">
-        <a href="https://infratop.jp/">
-          infratop
-       </a>
-      </h1>
+      <!--  気づきメモ：classの指定必要なし
+      <h1 class="headline"> が不要-->
+      <h1><a href="https://infratop.jp/">infratop</a></h1>
     </header>
 
-    <nav class="nav">
+    <!--  気づきメモ：classの指定必要なし
+    <nav class="nav">　が不要-->
+    <nav>
       <ul class="nav-list">
         <li class="nav-list-item">
           <a href="https://web-camp.io/">webcamp</a>
@@ -38,6 +38,7 @@
       </ul>
     </nav>
 
+    <!-- flex-wrapで折り返しできるため、main1,2,3に分けなくてOK。 -->
     <div class="main">
       <li class="box1"></li>
       <li class="box2"></li>
