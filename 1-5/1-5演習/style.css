@@ -1,3 +1,5 @@
+/* Flexboxでflex-wrapというプロパティ、wrapという値を利用します。 */
+
 * {
   margin: 0;
   padding: 0;
@@ -7,13 +9,12 @@
 header {
   width: 100%;
   margin: 0 auto;
+  padding: 20px 0;
   text-align: center;
 }
 
 .headline {
-  padding: 20px 0;
   font-size: 32px;
-  text-align: center;
 }
 
 .nav-list {
@@ -21,6 +22,8 @@ header {
   text-align: center;
   margin: 0 auto;
   padding: 15px 0;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
 }
 
 .nav-list-item {
@@ -29,70 +32,85 @@ header {
   margin: 0 20px;
 }
 
-.main1 {
+.main {
   list-style: none;
   width: 800px;
-  height: 200px;
+  height: 600px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
-.box1-1 {
+.box1 {
   width: 200px;
+  height: 200px;
   background-color: #e6ffe9;
 }
 
-.box1-2 {
+.box2 {
+  width: 200px;
+  height: 200px;
   background-color: #cbffd3;
 }
 
-.box1-3 {
+.box3 {
+  width: 200px;
+  height: 200px;
   background-color: #aeffbd;
 }
 
-.box1-4 {
+.box4 {
+  width: 200px;
+  height: 200px;
   background-color: #93ffab;
 }
 
-.main2 {
-  list-style: none;
+.box5 {
   width: 200px;
   height: 200px;
-}
-
-.box2-1 {
   background-color: #f3ffd8;
 }
 
-.box2-2 {
+.box6 {
+  width: 200px;
+  height: 200px;
   background-color: #edffbe;
 }
 
-.box2-3 {
+.box7 {
+  width: 200px;
+  height: 200px;
   background-color: #e9ffa5;
 }
 
-.box2-4 {
+.box8 {
+  width: 200px;
+  height: 200px;
   background-color: #e4ff8d;
 }
 
-.main3 {
-  list-style: none;
+.box9 {
   width: 200px;
   height: 200px;
-}
-
-.box3-1 {
   background-color: #d9e5ff;
 }
 
-.box3-2 {
+.box10 {
+  width: 200px;
+  height: 200px;
   background-color: #bad3ff;
 }
 
-.box3-3 {
+.box11 {
+  width: 200px;
+  height: 200px;
   background-color: #a4c6ff;
 }
 
-.box3-4 {
+.box12 {
+  width: 200px;
+  height: 200px;
   background-color: #8eb8ff;
 }
 
