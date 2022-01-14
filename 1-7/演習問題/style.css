@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-/* header { */
 .main-visual{  
   height: 400px;
   width: 100%;
@@ -13,15 +12,11 @@
   background-position: bottom;}
 }
 
-/* heanding を変更
-  padding: 20px 0 0 20px;
-  color: #848282;*/
-
-.headline{
+.headline {
   padding: 20px;
 }
 
-main{
+main {
   width: 840px;
   margin: 50px auto;
 }
@@ -49,23 +44,3 @@ main{
   padding-bottom: 30px;
 }
 
-/*　解いてたやつ　
-
-.blog-box {
-  margin: 0 auto;
-  width: 840px;
-  padding-top: 20px;
-  padding-bottom: 50px;
-}
-
-.blog-item {
-  margin-top: 30px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #848282;
-}
-
-.blog-text {
-  color: #848282;
-}
-
-*/
