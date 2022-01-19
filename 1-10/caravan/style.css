@@ -25,15 +25,15 @@ header {
   position: relative;
 }
 
+.social i {
+  display: inline-block;
+  margin-left: 20px;
+}
+
 .social {
   position: absolute;
   top: 22px;
   right: 22px;
-}
-
-.social i {
-  display: inline-block;
-  margin-left: 20px;
 }
 
 header.heading {
@@ -238,19 +238,19 @@ footer {
     width: 100%;
   }
 
+  /*要素を画面から消す*/
+  .social {
+    display: none;
+  }
+
   .nav-list {
     width: 100%;
   }
 
   .nav-list-item {
     width: 100%;
-    /*追記*/
+    /*追記　margin: 0 20px;を修正*/
     margin: 0 0 10px 0;
-  }
-
-  /*確認する！*/
-  .social {
-    display: none;
   }
 
   .main-visual-content {
@@ -259,37 +259,36 @@ footer {
 
   main {
     width: 100%;
+    /* 横並びにできないので変更 */
     display: block;
   }
 
   .blog {
-    width: 100px;
-    /*追記*/
+    width: 100%;
     margin: 0;
   }
 
-  /*確認する！*/
-  .blog-box {
-  }
-
-  /*ちなみに*/
-
+  /* padding-top: 50px;を修正 */
   .blog-box {
     padding-left: 2%;
     padding-right: 2%;
   }
 
+  /* blog-boxに合わせて修正 */
   .blog-image {
     width: 49%;
   }
 
   .blog-text {
+    /* blog-boxに合わせて修正 */
     width: 49%;
+    /* 5がなんでかはわからん */
     padding-top: 5px;
   }
 
   .sidebar {
     width: 100%;
+    /* blog-boxに合わせて修正 */
     padding-left: 3%;
     padding-right: 3%;
   }
@@ -303,8 +302,8 @@ footer {
     margin-right: 4%;
   }
 
+  /* 追加 */
   .pagination {
     margin-bottom: 50px;
   }
-}
 }
