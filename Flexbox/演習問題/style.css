@@ -5,47 +5,61 @@
 }
 
 header {
-  width: 100%;
+  /*width: 100%;*/
   padding: 30px 20px;
-  background-color: rgb(230, 25, 195);
+  background-color: #ff00ff;
+  /*不要
+  background-color: rgb(230, 25, 195); */
   display: flex;
   justify-content: flex-end;
 }
 .header-box {
+  background-color: #fbb3ff;
   height: 70px;
   margin: 0 10px;
   flex-basis: 140px;
-  background-color: rgb(204, 137, 204);
+  /*不要
+  background-color: rgb(204, 137, 204);*/
 }
 .header-box:first-child {
   margin-right: auto;
 }
 
-main {
+.main {
   display: flex;
-  justify-items: center;
+  justify-content: center;
 }
 
 .sidebar {
+  background-color: #d8ffb6;
   width: 300px;
-  background-color: rgb(221, 247, 170);
+  /*
+  background-color: rgb(221, 247, 170);*/
 }
 
 .item {
+  background-color: #00b522;
+  /*
+  background-color: rgb(163, 240, 9);*/
+  /*追加*/
+  padding: 20px;
+  flex-grow: 1;
   max-width: 700px;
   display: flex;
   flex-wrap: wrap;
-  background-color: rgb(163, 240, 9);
+  justify-content: center;
 }
 
-.item-box {
+.item > div {
+  background-color: #fff75a;
   flex-basis: 200px;
   height: 130px;
   margin: 10px;
-  padding: 20px;
-  background-color: yellow;
+  /*不要  padding: 20px;
+  background-color: yellow;*/
 }
 
+/*不要
 .item-box:nth-child(2),
 :nth-child(5),
 :nth-child(8) {
@@ -58,25 +72,33 @@ main {
 :nth-child(6) {
   padding-top: 0px;
   padding-bottom: 0px;
-}
+}*/
 
 footer {
-  width: 100%;
+  /*不要
+  width: 100%;*/
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  background-color: rgb(81, 147, 233);
+  background-color: #52a1ff;
+  /*
+  background-color: rgb(81, 147, 233);*/
+  /*追加*/
+  justify-content: center;
 }
 
 .footer-box {
+  background-color: #b6e7ff;
   flex-basis: 45%;
   margin: 10px;
   max-width: 600px;
   height: 40px;
-  background-color: skyblue;
+  /*
+  background-color: skyblue;*/
 }
 
+/*不要
 .footer-box:nth-last-child(3) {
   justify-content: center;
   align-items: center;
-}
+}*/
